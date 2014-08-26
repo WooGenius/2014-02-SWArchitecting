@@ -19,6 +19,8 @@ package twitter4j;
 import java.util.ArrayList;
 import java.util.List;
 
+import twitter4j.internal.http.HttpParameter;
+
 /**
  * Controls pagination.<br>
  * It is possible to use the same Paging instance in a multi-threaded

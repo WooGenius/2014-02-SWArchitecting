@@ -15,11 +15,13 @@
  */
 package twitter4j;
 
+import twitter4j.internal.logging.Logger;
 import twitter4j.management.APIStatistics;
 import twitter4j.management.APIStatisticsMBean;
 import twitter4j.management.APIStatisticsOpenMBean;
 
 import javax.management.*;
+
 import java.lang.management.ManagementFactory;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

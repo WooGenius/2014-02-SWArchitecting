@@ -3,6 +3,24 @@ package twitter4j;
 import java.util.HashMap;
 import java.util.Map;
 
+import twitter4j.internal.json.AccountTotalsJSONImpl;
+import twitter4j.internal.json.CategoryJSONImpl;
+import twitter4j.internal.json.DirectMessageJSONImpl;
+import twitter4j.internal.json.IDsJSONImpl;
+import twitter4j.internal.json.JSONException;
+import twitter4j.internal.json.JSONObject;
+import twitter4j.internal.json.LocationJSONImpl;
+import twitter4j.internal.json.OEmbedJSONImpl;
+import twitter4j.internal.json.PlaceJSONImpl;
+import twitter4j.internal.json.RateLimitStatusJSONImpl;
+import twitter4j.internal.json.RelationshipJSONImpl;
+import twitter4j.internal.json.SavedSearchJSONImpl;
+import twitter4j.internal.json.StatusJSONImpl;
+import twitter4j.internal.json.TrendJSONImpl;
+import twitter4j.internal.json.TrendsJSONImpl;
+import twitter4j.internal.json.UserJSONImpl;
+import twitter4j.internal.json.UserListJSONImpl;
+
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com
  * @since Twitter4J 4.0.0
@@ -326,7 +344,7 @@ public final class TwitterObjectFactory {
      *
      * @since Twitter4J 2.1.7
      */
-    static void clearThreadLocalMap() {
+    public static void clearThreadLocalMap() {
         rawJsonMap.get().clear();
     }
 
@@ -337,7 +355,7 @@ public final class TwitterObjectFactory {
      *
      * @since Twitter4J 2.1.7
      */
-    static <T> T registerJSONObject(T key, Object json) {
+    public static <T> T registerJSONObject(T key, Object json) {
         registeredAtleastOnce = true;
         rawJsonMap.get().put(key, json);
         return key;

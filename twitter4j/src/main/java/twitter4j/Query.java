@@ -19,6 +19,8 @@ package twitter4j;
 import java.util.ArrayList;
 import java.util.List;
 
+import twitter4j.internal.http.HttpParameter;
+
 /**
  * A data class represents search query.<br>
  * An instance of this class is NOT thread safe.<br>
@@ -49,7 +51,7 @@ public final class Query implements java.io.Serializable {
         this.query = query;
     }
 
-    static Query createWithNextPageQuery(String nextPageQuery) {
+    public static Query createWithNextPageQuery(String nextPageQuery) {
         Query query = new Query();
         query.nextPageQuery = nextPageQuery;
         return query;

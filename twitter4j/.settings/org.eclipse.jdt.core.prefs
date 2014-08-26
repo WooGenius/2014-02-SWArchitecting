@@ -1,10 +1,6 @@
-#Wed Aug 27 05:03:46 KST 2014
-encoding/src/test/java=UTF-8
-org.eclipse.jdt.core.compiler.compliance=5
-encoding/src/main/resources=UTF-8
-org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
-encoding/src/main/java=UTF-8
-org.eclipse.jdt.core.compiler.codegen.targetPlatform=5
 eclipse.preferences.version=1
+encoding/src/main/java=UTF-8
+encoding/src/main/resources=UTF-8
+encoding/src/test/java=UTF-8
 encoding/src/test/resources=UTF-8
-org.eclipse.jdt.core.compiler.source=5
+org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
