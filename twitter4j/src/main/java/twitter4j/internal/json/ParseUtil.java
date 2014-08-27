@@ -26,8 +26,10 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import twitter4j.TwitterException;
 import twitter4j.TwitterResponse;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONObject;
 import twitter4j.internal.http.HttpResponse;
 
 /**

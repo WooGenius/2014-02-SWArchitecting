@@ -1,6 +1,8 @@
-package twitter4j.internal.json;
+package twitter4j.internal;
 
 import java.io.*;
+
+import twitter4j.exception.JSONException;
 
 /*
 Copyright (c) 2002 JSON.org

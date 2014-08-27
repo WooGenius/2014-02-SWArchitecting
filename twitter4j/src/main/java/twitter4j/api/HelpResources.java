@@ -19,7 +19,7 @@ package twitter4j.api;
 import twitter4j.RateLimitStatus;
 import twitter4j.ResponseList;
 import twitter4j.TwitterAPIConfiguration;
-import twitter4j.TwitterException;
+import twitter4j.exception.TwitterException;
 
 import java.util.Map;
 
@@ -32,7 +32,7 @@ public interface HelpResources {
      * It is recommended applications request this endpoint when they are loaded, but no more than once a day.
      *
      * @return configuration
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/help/configuration">GET help/configuration | Twitter Developers</a>
      * @since Twitter4J 2.2.3
      */
@@ -42,7 +42,7 @@ public interface HelpResources {
      * Returns the list of languages supported by Twitter along with their ISO 639-1 code. The ISO 639-1 code is the two letter value to use if you include lang with any of your requests.
      *
      * @return list of languages supported by Twitter
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/help/languages">GET help/languages | Twitter Developers</a>
      * @since Twitter4J 2.2.3
      */
@@ -61,7 +61,7 @@ public interface HelpResources {
      * <br>This method calls https://api.twitter.com/1.1/help/privacy.json
      *
      * @return privacy policy
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/help/privacy">GET help/privacy | Twitter Developers</a>
      * @since Twitter4J 2.1.7
      */
@@ -72,7 +72,7 @@ public interface HelpResources {
      * <br>This method calls https://api.twitter.com/1.1/help/tos.json
      *
      * @return Terms of Service
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/help/tos">GET help/tos | Twitter Developers</a>
      * @since Twitter4J 2.1.7
      */

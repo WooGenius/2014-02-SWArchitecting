@@ -18,6 +18,7 @@ package twitter4j;
 
 import twitter4j.auth.*;
 import twitter4j.conf.Configuration;
+import twitter4j.exception.TwitterException;
 import twitter4j.internal.http.HttpClient;
 import twitter4j.internal.http.HttpClientFactory;
 import twitter4j.internal.http.HttpResponse;

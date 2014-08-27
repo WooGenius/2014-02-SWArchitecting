@@ -18,6 +18,7 @@
 package twitter4j.api;
 
 import twitter4j.*;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com
@@ -32,7 +33,7 @@ public interface TrendsResources {
      *
      * @param woeid <a href="http://developer.yahoo.com/geo/geoplanet/">The Yahoo! Where On Earth ID</a> of the location to return trending information for. Global information is available by using 1 as the WOEID.
      * @return trends
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/trends/place">GET trends/place | Twitter Developers</a>
      * @since Twitter4J 3.0.2
      */
@@ -43,7 +44,7 @@ public interface TrendsResources {
      * <br>This method calls https://api.twitter.com/1.1/trends/available.json
      *
      * @return the locations
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/trends/available">GET trends/available | Twitter Developers</a>
      * @since Twitter4J 2.1.1
      */
@@ -57,7 +58,7 @@ public interface TrendsResources {
      *
      * @param location the available trend locations will be sorted by distance to the lat and long passed in. The sort is nearest to furthest.
      * @return the locations
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/trends/closest">GET trends/closest | Twitter Developers</a>
      * @since Twitter4J 3.0.2
      */

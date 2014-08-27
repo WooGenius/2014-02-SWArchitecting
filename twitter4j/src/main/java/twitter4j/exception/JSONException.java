@@ -1,4 +1,4 @@
-package twitter4j.internal.json;
+package twitter4j.exception;
 
 /**
  * The JSONException is thrown by the JSON.org classes when things are amiss.

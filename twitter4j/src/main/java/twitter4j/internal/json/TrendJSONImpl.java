@@ -18,6 +18,7 @@ package twitter4j.internal.json;
 
 import twitter4j.Trend;
 import twitter4j.TwitterObjectFactory;
+import twitter4j.internal.JSONObject;
 
 /**
  * A data class representing Trend.

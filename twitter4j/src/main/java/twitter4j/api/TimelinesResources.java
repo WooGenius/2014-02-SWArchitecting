@@ -19,7 +19,7 @@ package twitter4j.api;
 import twitter4j.Paging;
 import twitter4j.ResponseList;
 import twitter4j.Status;
-import twitter4j.TwitterException;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author Joern Huxhorn - jhuxhorn at googlemail.com

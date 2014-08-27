@@ -15,8 +15,9 @@
  */
 package twitter4j;
 
-import twitter4j.internal.json.JSONException;
-import twitter4j.internal.json.JSONObject;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONObject;
 import twitter4j.internal.json.ParseUtil;
 
 /**

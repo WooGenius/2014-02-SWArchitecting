@@ -1,4 +1,4 @@
-package twitter4j.internal.json;
+package twitter4j.internal;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -29,6 +29,8 @@ import java.io.Writer;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.*;
+
+import twitter4j.exception.JSONException;
 
 /**
  * A JSONObject is an unordered collection of name/value pairs. Its

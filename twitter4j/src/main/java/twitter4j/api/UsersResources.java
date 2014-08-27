@@ -17,6 +17,7 @@
 package twitter4j.api;
 
 import twitter4j.*;
+import twitter4j.exception.TwitterException;
 
 import java.io.File;
 import java.io.InputStream;
@@ -42,7 +43,7 @@ public interface UsersResources {
      * <br>This method calls https://api.twitter.com/1.1/account/verify_credentials.json
      *
      * @return user
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable, or if supplied credential is wrong (TwitterException.getStatusCode() == 401)
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable, or if supplied credential is wrong (TwitterException.getStatusCode() == 401)
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/account/verify_credentials">GET account/verify_credentials | Twitter Developers</a>
      * @since Twitter4J 2.0.0
      */

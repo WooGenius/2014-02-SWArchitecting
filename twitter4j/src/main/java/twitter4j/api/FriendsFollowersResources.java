@@ -17,6 +17,7 @@
 package twitter4j.api;
 
 import twitter4j.*;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author Joern Huxhorn - jhuxhorn at googlemail.com
@@ -258,7 +259,7 @@ public interface FriendsFollowersResources {
      *
      * @param screenName the screen name of the user to be befriended
      * @return the befriended user
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/post/friendships/create">POST friendships/create | Twitter Developers</a>
      * @since Twitter4J 2.0.1
      */

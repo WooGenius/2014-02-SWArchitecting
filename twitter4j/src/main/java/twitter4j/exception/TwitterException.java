@@ -14,15 +14,17 @@
  * limitations under the License.
  */
 
-package twitter4j;
+package twitter4j.exception;
 
 import java.util.List;
 
+import twitter4j.RateLimitStatus;
+import twitter4j.TwitterResponse;
+import twitter4j.Version;
+import twitter4j.internal.JSONObject;
 import twitter4j.internal.http.HttpResponse;
 import twitter4j.internal.http.HttpResponseCode;
-import twitter4j.internal.json.JSONException;
 import twitter4j.internal.json.JSONImplFactory;
-import twitter4j.internal.json.JSONObject;
 import twitter4j.internal.json.ParseUtil;
 import static twitter4j.internal.json.ParseUtil.getInt;
 

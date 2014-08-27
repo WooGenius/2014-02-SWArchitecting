@@ -18,12 +18,14 @@
 package twitter4j;
 
 import twitter4j.api.*;
+import twitter4j.api.HelpResources.Language;
 import twitter4j.auth.Authorization;
 import twitter4j.conf.Configuration;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
 import twitter4j.internal.StringUtil;
 import twitter4j.internal.http.HttpParameter;
 import twitter4j.internal.http.HttpResponse;
-import twitter4j.internal.json.JSONException;
 
 import java.io.*;
 import java.net.URLEncoder;

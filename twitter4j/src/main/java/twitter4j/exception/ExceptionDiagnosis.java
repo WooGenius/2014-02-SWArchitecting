@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package twitter4j;
+package twitter4j.exception;
 
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com

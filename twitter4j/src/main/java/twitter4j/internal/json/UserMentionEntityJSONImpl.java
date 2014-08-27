@@ -16,8 +16,11 @@
 
 package twitter4j.internal.json;
 
-import twitter4j.TwitterException;
 import twitter4j.UserMentionEntity;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONArray;
+import twitter4j.internal.JSONObject;
 
 /**
  * A data interface representing one single user mention entity.

@@ -18,7 +18,10 @@ package twitter4j.internal.json;
 
 import twitter4j.HashtagEntity;
 import twitter4j.SymbolEntity;
-import twitter4j.TwitterException;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONArray;
+import twitter4j.internal.JSONObject;
 
 /**
  * A data class representing one single Hashtag entity.

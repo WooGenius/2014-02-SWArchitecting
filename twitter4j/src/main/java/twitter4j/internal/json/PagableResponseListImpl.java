@@ -18,6 +18,7 @@ package twitter4j.internal.json;
 
 import twitter4j.PagableResponseList;
 import twitter4j.RateLimitStatus;
+import twitter4j.internal.JSONObject;
 import twitter4j.internal.http.HttpResponse;
 
 /**

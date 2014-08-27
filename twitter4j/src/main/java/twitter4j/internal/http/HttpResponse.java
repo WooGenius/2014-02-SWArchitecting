@@ -16,12 +16,12 @@
 
 package twitter4j.internal.http;
 
-import twitter4j.TwitterException;
 import twitter4j.conf.ConfigurationContext;
-import twitter4j.internal.json.JSONArray;
-import twitter4j.internal.json.JSONException;
-import twitter4j.internal.json.JSONObject;
-import twitter4j.internal.json.JSONTokener;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONArray;
+import twitter4j.internal.JSONObject;
+import twitter4j.internal.JSONTokener;
 import twitter4j.internal.logging.Logger;
 
 import java.io.*;

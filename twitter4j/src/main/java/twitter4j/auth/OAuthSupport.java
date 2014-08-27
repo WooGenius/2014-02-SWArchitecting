@@ -15,7 +15,7 @@
  */
 package twitter4j.auth;
 
-import twitter4j.TwitterException;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com

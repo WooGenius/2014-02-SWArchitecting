@@ -17,6 +17,7 @@
 package twitter4j.json;
 
 import twitter4j.*;
+import twitter4j.exception.TwitterException;
 
 import java.util.Map;
 

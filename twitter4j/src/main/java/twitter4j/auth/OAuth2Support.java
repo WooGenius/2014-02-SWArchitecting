@@ -16,7 +16,7 @@
 
 package twitter4j.auth;
 
-import twitter4j.TwitterException;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author KOMIYA Atsushi - komiya.atsushi at gmail.com

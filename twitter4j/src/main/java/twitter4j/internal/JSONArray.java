@@ -1,4 +1,4 @@
-package twitter4j.internal.json;
+package twitter4j.internal;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -30,6 +30,8 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Map;
+
+import twitter4j.exception.JSONException;
 
 /**
  * A JSONArray is an ordered sequence of values. Its external text form is a

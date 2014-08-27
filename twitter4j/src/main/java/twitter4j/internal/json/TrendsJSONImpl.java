@@ -20,9 +20,12 @@ import twitter4j.Location;
 import twitter4j.ResponseList;
 import twitter4j.Trend;
 import twitter4j.Trends;
-import twitter4j.TwitterException;
 import twitter4j.TwitterObjectFactory;
 import twitter4j.conf.Configuration;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONArray;
+import twitter4j.internal.JSONObject;
 import twitter4j.internal.http.HttpResponse;
 
 import java.util.Arrays;

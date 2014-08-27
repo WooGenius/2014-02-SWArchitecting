@@ -37,13 +37,16 @@ import twitter4j.SavedSearch;
 import twitter4j.Status;
 import twitter4j.Trends;
 import twitter4j.TwitterAPIConfiguration;
-import twitter4j.TwitterException;
 import twitter4j.URLEntity;
 import twitter4j.User;
 import twitter4j.UserList;
 import twitter4j.UserMentionEntity;
 import twitter4j.api.HelpResources;
 import twitter4j.conf.Configuration;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONArray;
+import twitter4j.internal.JSONObject;
 import twitter4j.internal.http.HttpResponse;
 
 import java.util.Map;

@@ -19,8 +19,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 import twitter4j.MediaEntity;
-import twitter4j.TwitterException;
 import twitter4j.MediaEntity.Size;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONArray;
+import twitter4j.internal.JSONObject;
 
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com

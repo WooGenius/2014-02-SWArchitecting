@@ -3,12 +3,13 @@ package twitter4j;
 import java.util.HashMap;
 import java.util.Map;
 
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONObject;
 import twitter4j.internal.json.AccountTotalsJSONImpl;
 import twitter4j.internal.json.CategoryJSONImpl;
 import twitter4j.internal.json.DirectMessageJSONImpl;
 import twitter4j.internal.json.IDsJSONImpl;
-import twitter4j.internal.json.JSONException;
-import twitter4j.internal.json.JSONObject;
 import twitter4j.internal.json.LocationJSONImpl;
 import twitter4j.internal.json.OEmbedJSONImpl;
 import twitter4j.internal.json.PlaceJSONImpl;

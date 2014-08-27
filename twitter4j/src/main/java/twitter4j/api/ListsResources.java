@@ -17,6 +17,7 @@
 package twitter4j.api;
 
 import twitter4j.*;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author Joern Huxhorn - jhuxhorn at googlemail.com
@@ -269,7 +270,7 @@ public interface ListsResources {
      * @param listId The id of the list
      * @param cursor Breaks the results into pages. A single page contains 20 lists. Provide a value of -1 to begin paging. Provide values as returned to in the response body's next_cursor and previous_cursor attributes to page back and forth in the list.
      * @return the members of the specified list.
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/lists/subscribers">GET lists/subscribers | Twitter Developers</a>
      * @since Twitter4J 2.2.3
      */
@@ -283,7 +284,7 @@ public interface ListsResources {
      * @param slug    slug of the list
      * @param cursor  Breaks the results into pages. A single page contains 20 lists. Provide a value of -1 to begin paging. Provide values as returned to in the response body's next_cursor and previous_cursor attributes to page back and forth in the list.
      * @return the members of the specified list.
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/lists/subscribers">GET lists/subscribers | Twitter Developers</a>
      * @since Twitter4J 3.0.0
      */
@@ -297,7 +298,7 @@ public interface ListsResources {
      * @param slug            slug of the list
      * @param cursor          Breaks the results into pages. A single page contains 20 lists. Provide a value of -1 to begin paging. Provide values as returned to in the response body's next_cursor and previous_cursor attributes to page back and forth in the list.
      * @return the members of the specified list.
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/lists/subscribers">GET lists/subscribers | Twitter Developers</a>
      * @since Twitter4J 3.0.2
      */
@@ -721,7 +722,7 @@ public interface ListsResources {
      * @param isPublicList set true if you wish to make a public list
      * @param description  The description of the list you are creating. Optional.
      * @return the list that was created
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable, or the authenticated user already has 20 lists(TwitterException.getStatusCode() == 403).
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable, or the authenticated user already has 20 lists(TwitterException.getStatusCode() == 403).
      * @see <a href="https://dev.twitter.com/docs/api/1.1/post/lists/create">POST lists/create | Twitter Developers</a>
      * @since Twitter4J 2.1.0
      */

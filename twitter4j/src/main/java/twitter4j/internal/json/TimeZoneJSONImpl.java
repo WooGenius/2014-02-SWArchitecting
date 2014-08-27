@@ -17,7 +17,9 @@
 package twitter4j.internal.json;
 
 import twitter4j.TimeZone;
-import twitter4j.TwitterException;
+import twitter4j.exception.JSONException;
+import twitter4j.exception.TwitterException;
+import twitter4j.internal.JSONObject;
 
 /**
  * @author Alessandro Bahgat - ale.bahgat at gmail.com

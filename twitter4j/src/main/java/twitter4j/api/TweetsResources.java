@@ -17,6 +17,7 @@
 package twitter4j.api;
 
 import twitter4j.*;
+import twitter4j.exception.TwitterException;
 
 import java.io.File;
 
@@ -72,7 +73,7 @@ public interface TweetsResources {
      *
      * @param id the numerical ID of the status you're trying to retrieve
      * @return a single status
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/statuses/show/:id">GET statuses/show/:id | Twitter Developers</a>
      * @since Twitter4J 2.0.1
      */

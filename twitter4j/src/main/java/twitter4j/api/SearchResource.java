@@ -18,7 +18,7 @@ package twitter4j.api;
 
 import twitter4j.Query;
 import twitter4j.QueryResult;
-import twitter4j.TwitterException;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author Joern Huxhorn - jhuxhorn at googlemail.com

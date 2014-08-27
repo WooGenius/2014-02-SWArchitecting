@@ -17,8 +17,8 @@ package twitter4j.api;
 
 import twitter4j.Category;
 import twitter4j.ResponseList;
-import twitter4j.TwitterException;
 import twitter4j.User;
+import twitter4j.exception.TwitterException;
 
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com
@@ -43,7 +43,7 @@ public interface SuggestedUsersResources {
      * <br>This method calls https://api.twitter.com/1.1/users/suggestions
      *
      * @return list of suggested user categories.
-     * @throws twitter4j.TwitterException when Twitter service or network is unavailable
+     * @throws twitter4j.exception.TwitterException when Twitter service or network is unavailable
      * @see <a href="https://dev.twitter.com/docs/api/1.1/get/users/suggestions">GET users/suggestions | Twitter Developers</a>
      * @since Twitter4J 2.1.1
      */
