@@ -17,6 +17,7 @@
 package twitter4j;
 
 import twitter4j.conf.ConfigurationContext;
+import twitter4j.conf.HttpClientConfiguration;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

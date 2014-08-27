@@ -21,6 +21,8 @@ import java.net.HttpURLConnection;
 import java.util.List;
 import java.util.Map;
 
+import twitter4j.conf.HttpClientConfiguration;
+
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com
  * @since Twitter4J 2.1.2

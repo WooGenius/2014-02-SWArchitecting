@@ -1,6 +1,8 @@
 package twitter4j;
 
 import twitter4j.auth.Authorization;
+import twitter4j.conf.HttpClientConfiguration;
+import twitter4j.logging.Logger;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

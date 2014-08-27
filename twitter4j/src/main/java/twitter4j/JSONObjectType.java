@@ -16,6 +16,8 @@
 
 package twitter4j;
 
+import twitter4j.logging.Logger;
+
 /**
  * @author Dan Checkoway - dcheckoway at gmail.com
  * @since Twitter4J 2.1.9

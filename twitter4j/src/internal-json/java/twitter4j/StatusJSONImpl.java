@@ -17,6 +17,7 @@
 package twitter4j;
 
 import twitter4j.conf.Configuration;
+import twitter4j.logging.Logger;
 
 import java.util.Arrays;
 import java.util.Date;

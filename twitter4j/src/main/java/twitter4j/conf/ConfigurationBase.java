@@ -16,8 +16,7 @@
 
 package twitter4j.conf;
 
-import twitter4j.HttpClientConfiguration;
-import twitter4j.Logger;
+import twitter4j.logging.Logger;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;

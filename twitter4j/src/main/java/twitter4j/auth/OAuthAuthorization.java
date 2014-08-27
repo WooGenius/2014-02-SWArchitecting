@@ -18,9 +18,12 @@ package twitter4j.auth;
 
 import twitter4j.*;
 import twitter4j.conf.Configuration;
+import twitter4j.logging.Logger;
+import twitter4j.util.BASE64Encoder;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
+
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.security.InvalidKeyException;
